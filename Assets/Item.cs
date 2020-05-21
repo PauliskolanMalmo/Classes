@@ -8,6 +8,7 @@ public class Item
     public string name;
     public int id;
     public string description;
+    public Sprite icon;
 
     public Item()
     {

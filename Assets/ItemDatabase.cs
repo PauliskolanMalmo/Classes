@@ -5,6 +5,18 @@ using UnityEngine;
 public class ItemDatabase : MonoBehaviour
 {
 
+
+    public Item[] items;
+
+
+
+    void Start()
+    {
+        print("items[0].name: " + items[0].name);
+    }
+
+
+    /*
     [SerializeField]
     public Item sword;
     public Item hammer;
@@ -41,9 +53,6 @@ public class ItemDatabase : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    */
 
-    }
 }

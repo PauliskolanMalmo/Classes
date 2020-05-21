@@ -306,3 +306,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea83ed874b4e24a15bdd424f644d45b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items:
+  - name: Bread
+    id: 1
+    description: This is bread
+    icon: {fileID: 0}
+  - name: Test
+    id: 2
+    description: Test
+    icon: {fileID: 0}
