@@ -295,11 +295,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e4c6a43af6e439e93fa94458dae95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireBlast:
-    name: 
-    levelRequired: 0
-    itemRequired: 0
-    expGained: 0
+  spells:
+  - name: Fire Blast
+    levelRequired: 1
+    itemRequired: 27
+    expGained: 35
+  - name: Ice Blast
+    levelRequired: 3
+    itemRequired: 29
+    expGained: 55
   level: 1
   exp: 0
 --- !u!65 &1055412724

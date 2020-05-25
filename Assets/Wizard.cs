@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Wizard : MonoBehaviour
 {
-    public Spell fireBlast;
+
+    //public Spell fireBlast;
+
+    public Spell[] spells;
 
     public int level = 1;
     public int exp;
@@ -23,6 +26,15 @@ public class Wizard : MonoBehaviour
             fireBlast.Cast();
             exp += fireBlast.expGained;
             */
+
+            foreach (var spell in spells)
+            {
+                if (spell.levelRequired == level)
+                {
+                    spell.Cast();
+                    exp += spell.expGained;
+                }
+            }
         }
 
     }

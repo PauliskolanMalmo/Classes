@@ -20,6 +20,7 @@ public class Spell
 
     public void Cast()
     {
-        Debug.Log("Cast Spell!");
+        //Debug.Log("Cast Spell!");
+        Debug.Log("Castring: " + this.name);
     }
 }
