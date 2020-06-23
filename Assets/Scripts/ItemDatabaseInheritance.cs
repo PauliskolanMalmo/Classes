@@ -5,19 +5,9 @@ using UnityEngine;
 public class ItemDatabaseInheritance : MonoBehaviour
 {
 
-    public Item goldCoin = new Item();
+    public ItemInheritance goldCoin = new ItemInheritance();
     public Weapon sword = new Weapon();
     public Consumable bread = new Consumable();
 
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
