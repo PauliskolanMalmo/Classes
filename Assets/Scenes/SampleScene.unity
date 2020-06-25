@@ -200,7 +200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &194365164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,7 +308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &506842486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -613,7 +613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1235883980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,7 +870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2106537536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,6 +883,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ddf54b508f7e42a695963ec3a42e264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  details:
+    branchName: Roswell Credit Union
+    location: Roswell
+    cashInVault: 70000
+    availibleCashToLend: 30000
 --- !u!65 &2106537537
 BoxCollider:
   m_ObjectHideFlags: 0
