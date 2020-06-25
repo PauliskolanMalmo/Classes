@@ -5,9 +5,9 @@ using UnityEngine;
 [System.Serializable]
 public class Bank
 {
-    public string branchName;
-    public string location;
-    public int cashInVault;
+    private string branchName;
+    protected string location;
+    protected int cashInVault;
 
     public void CheckBalance()
     {
