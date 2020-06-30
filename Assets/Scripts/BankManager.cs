@@ -8,6 +8,6 @@ public class BankManager : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(bankDetails.branchName);
+        //Debug.Log(bankDetails.branchName);
     }
 }

@@ -5,7 +5,12 @@ using UnityEngine;
 [System.Serializable]
 public class Bank
 {
-    private string branchName;
+    //protected:possible for subclasses to inherit but no not non-sub classes
+    //private: then no classes can inherit
+    //public: all classes inherit
+
+
+    protected string branchName;
     protected string location;
     protected int cashInVault;
 
